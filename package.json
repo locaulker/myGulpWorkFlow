@@ -25,7 +25,7 @@
     "gulp-concat": "2.6.1",
     "gulp-declare": "0.3.0",
     "gulp-handlebars": "5.0.1",
-    "gulp-imagemin": "3.0.1",
+    "gulp-imagemin": "4.0.0",
     "gulp-sass": "3.1.0",
     "gulp-sourcemaps": "2.6.3",
     "gulp-watch": "4.3.11",
