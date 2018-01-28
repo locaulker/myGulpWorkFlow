@@ -2,7 +2,8 @@ const gulp = require('gulp'),
 imagemin = require('gulp-imagemin'),
 imageminPngquant = require('imagemin-pngquant'),
 imageminJpegRecompress = require('imagemin-jpeg-recompress'),
-del = require('del');
+del = require('del'),
+usemin = require('gulp-usemin');
 
 
 
@@ -27,5 +28,11 @@ gulp.task('optimizedImages', ['deleteDistFolder'], function(){
     .pipe(gulp.dest("./dist/assets/images"));
 });
 
+gulp.task('usemin', ['deleteDistFolder'], function(){
+  return gulp.src("./app/index.html")
+    .pipe(usemin())
+    .pipe(gulp.dest("./dist"));
+});
 
-gulp.task('build', ['deleteDistFolder', 'optimizedImages']);
+
+gulp.task('build', ['deleteDistFolder', 'optimizedImages', 'usemin']);
