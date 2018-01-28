@@ -3,7 +3,7 @@ watch = require('gulp-watch'),
 browserSync = require('browser-sync').create();
 
 
-gulp.task('watch', ['styles', 'scripts', 'templates'], function(){
+gulp.task('watch', ['images', 'templates', 'styles', 'scripts'], function(){
 
   browserSync.init({
     notify: false,
@@ -13,6 +13,10 @@ gulp.task('watch', ['styles', 'scripts', 'templates'], function(){
   });
   
   watch('./app/index.html', function(){
+    browserSync.reload();
+  });
+
+  watch('./app/assets/images/**/*.{png,jpeg,jpg,svg,gif}', function(){
     browserSync.reload();
   });
 
