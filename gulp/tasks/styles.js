@@ -7,7 +7,7 @@ concat = require('gulp-concat');
 
 
 // Compile and merge CSS files
-gulp.task('styles', function(){
+gulp.task('styles', ['fa-fonts'], function(){
 
   var m1_faCSS = gulp.src('node_modules/font-awesome/css/font-awesome.css');
   var m2_bsCSS = gulp.src('node_modules/bootstrap/dist/css/bootstrap.css');

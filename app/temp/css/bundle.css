@@ -1,3 +1,18 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600");
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.large-hero {
+  position: relative;
+}
+
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
@@ -2334,21 +2349,6 @@
   margin: 0;
   overflow: visible;
   clip: auto;
-}
-
-@import url("https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600");
-body {
-  font-family: 'Roboto', sans-serif;
-  color: #333;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-.large-hero {
-  position: relative;
 }
 
 /*!

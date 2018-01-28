@@ -1,7 +1,7 @@
 {
-  "name": "bs4starter",
+  "name": "mygulpworkflow",
   "version": "1.0.0",
-  "description": "Bootstrap 4 Starter Complete",
+  "description": "My Gulp Workflow",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
