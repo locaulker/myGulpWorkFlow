@@ -3,7 +3,7 @@ watch = require('gulp-watch'),
 browserSync = require('browser-sync').create();
 
 
-gulp.task('watch', ['images', 'templates', 'styles', 'scripts'], function(){
+gulp.task('watch', function(){
 
   browserSync.init({
     notify: false,

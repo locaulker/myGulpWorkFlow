@@ -1,0 +1,1 @@
+this.templates=this.templates||{},this.templates.greeting=Handlebars.template({compiler:[7,">= 4.0.0"],main:function(e,t,a,n,s){var l;return"<p>Starting Now</p>\n<p>"+e.escapeExpression("function"==typeof(l=null!=(l=a.message||(null!=t?t.message:t))?l:a.helperMissing)?l.call(null!=t?t:e.nullContext||{},{name:"message",hash:{},data:s}):l)+"</p>\n<p>Stopping</p>"},useData:!0});

@@ -2336,6 +2336,31 @@
   clip: auto;
 }
 
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700");
+body {
+  font-family: 'lato', sans-serif;
+  color: #333;
+}
+
+body h1 {
+  font-weight: 300;
+  color: green;
+}
+
+body h2 {
+  font-weight: 300;
+  color: #555;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.large-hero {
+  position: relative;
+}
+
 /*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -11311,29 +11336,4 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
-@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700");
-body {
-  font-family: 'lato', sans-serif;
-  color: #333;
-}
-
-body h1 {
-  font-weight: 300;
-  color: green;
-}
-
-body h2 {
-  font-weight: 300;
-  color: #555;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-.large-hero {
-  position: relative;
-}
-
 /*# sourceMappingURL=maps/bundle.css.map */
